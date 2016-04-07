@@ -1,0 +1,17 @@
+.minclock-wrap {
+	text-align: center;
+	padding: 10rem 0;
+}
+.flip-clock-wrapper {
+	width: auto;
+}
+.minclock {
+	display: inline-block;
+}
+.minclock .flip-clock-divider.seconds {
+	display: none;
+}
+.minclock ul.flip:nth-of-type(5),
+.minclock ul.flip:nth-of-type(6) {
+	display: none;
+}
