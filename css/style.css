@@ -8,13 +8,13 @@
 .minclock-wrap .minclock {
 	display: inline-block;
 }
-/*.minclock-wrap .minclock .flip-clock-divider.seconds {
+.minclock-wrap .minclock .flip-clock-divider.seconds {
 	display: none;
 }
 .minclock-wrap .minclock ul.flip:nth-of-type(5),
 .minclock-wrap .minclock ul.flip:nth-of-type(6) {
 	display: none;
-}*/
+}
 button:disabled,
 button:disabled:hover {
 	background: rgba(100,100,100,.5);
