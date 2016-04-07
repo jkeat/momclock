@@ -2,16 +2,27 @@
 	text-align: center;
 	padding: 10rem 0;
 }
-.flip-clock-wrapper {
+.minclock-wrap .flip-clock-wrapper {
 	width: auto;
 }
-.minclock {
+.minclock-wrap .minclock {
 	display: inline-block;
 }
-.minclock .flip-clock-divider.seconds {
+/*.minclock-wrap .minclock .flip-clock-divider.seconds {
 	display: none;
 }
-.minclock ul.flip:nth-of-type(5),
-.minclock ul.flip:nth-of-type(6) {
+.minclock-wrap .minclock ul.flip:nth-of-type(5),
+.minclock-wrap .minclock ul.flip:nth-of-type(6) {
 	display: none;
+}*/
+button:disabled,
+button:disabled:hover {
+	background: rgba(100,100,100,.5);
+	border-color: rgba(100,100,100,.5);
+}
+.minclock-wrap .buttons button:focus {
+	outline: none;
+}
+.minclock-wrap .buttons button:not(:last-of-type) {
+	margin-right: 15px;
 }
